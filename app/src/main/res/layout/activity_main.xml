@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.triloc_x.OverlayView
+        android:id="@+id/overlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/controlPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#99000000"
+        android:layout_gravity="bottom">
+
+        <EditText
+            android:id="@+id/inputRealHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter object height in meters"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/selectObjectButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Object" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Distance" />
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:paddingTop="8dp"
+            android:text="Output will appear here." />
+    </LinearLayout>
+</FrameLayout>
