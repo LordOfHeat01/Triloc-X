@@ -50,8 +50,12 @@ Where:
 - Use of angle + multiple objects for **2D/3D triangulation**
 - Indoor navigation and augmented reality integration
 
-🤝 Contribution & License
-Built with passion during an internship. Contributions welcome.
+
+👨‍💻 Developed At
+🎓 Aerial Delivery Research & Development Establishment (ADRDE), DRDO, Ministry Of Defence
+🗓️ Internship Duration: June–July 2025  
+👨‍🔬 Role: Android Developer Intern  
+🧠 Focus Areas: Indoor localization, trigonometry-based calculation, user-centered app design
 
 👨‍💻 Developer
 
