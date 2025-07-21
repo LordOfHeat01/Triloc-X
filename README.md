@@ -53,7 +53,7 @@ Where:
 
 👨‍💻 Developed At
 🎓 Aerial Delivery Research & Development Establishment (ADRDE), DRDO, Ministry Of Defence
-🗓️ Internship Duration: June–July 2025  
+🗓️ Internship Duration: May –July 2025  
 👨‍🔬 Role: Android Developer Intern  
 🧠 Focus Areas: Indoor localization, trigonometry-based calculation, user-centered app design
 
